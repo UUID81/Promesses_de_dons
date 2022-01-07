@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>           <!--première balise html-->
+     <head>  
+        <img src ="G:\Mon Drive\IAMICROSOFT\STEPH_Projet\promesses_de_dons CORLAY\don-momo.jpg"> 
+        <title>Faites un don</title>
+        <link rel="stylesheet" href="G:\Mon Drive\IAMICROSOFT\STEPH_Projet\promesses_de_dons\style.css" 
+    </head>
+    <body> <!--corp du code-->
+        <!--form method="post" action="mailto:jamin.normand@gmail.Com"-->
+        <!--form method="get" action="http://www.serveur.com/application/page.php"-->    
+        <form action="" method="get" class= "Faites_un_don" >                             <!-- premier cadre  -->
+            <div class= "Faites_un_don" >
+
+                <input type="radio" id="monsieur" name="sexe" value="h" checked/>
+                <label for="monsieur">M.</label>
+
+                <input type="radio" id="madame" name="sexe" value="f"/>
+                <label for="madame">Mme.</label>
+
+
+                <Label for = "name">Entrez un nom : </Label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div class= "Faites_un_don" >
+                <Label for = "email">Entrez un email : </Label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <fieldset>
+                <label for="comments">Vos informations bancaires:</label>
+                 <textarea name="comments" id="comments" cols="60" rows="4">
+                 </textarea>
+           </fieldset>
+           <p>
+
+            <div class= "Faites_un_don" >
+                <input type="submit">
+            </div>
+            <img src='https://www.teteenlair-parachutisme.com/wp-content/uploads/2018/01/cb_visa_mastercard_paypal.png'>
+            </div>
+        </form>
+    </body>
+</html>
